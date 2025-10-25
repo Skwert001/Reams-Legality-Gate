@@ -1,0 +1,20 @@
+{
+  "policy_id": "REAMS-POLICY-\u03a9.84-DRAFT",
+  "signer": "REAMS-CORE-001",
+  "mode": "factual",
+  "enforce": false,
+  "retention_days": 30,
+  "redact": true,
+  "cloak": true,
+  "cloak_pct_hbar": 0.08,
+  "cloak_pct_sr": 0.08,
+  "prsi_min": 0.75,
+  "killswitch": {
+    "alerts_in_window": {
+      "k": 3,
+      "window_steps": 6
+    },
+    "L_floor_burst": 0.5,
+    "malicious_leak_limit": 2
+  }
+}
